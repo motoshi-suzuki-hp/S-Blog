@@ -1,0 +1,111 @@
+
+.profile-inner {
+    width: 88vw;
+    margin: 0 auto 5em;
+}
+
+
+.profile-elements {
+    padding: 0 1.5em;
+    display: flex;
+    justify-content: space-between;
+    height: 730px;
+    /* padding-top: 70px; */
+    padding-bottom: 50px;
+
+
+
+    height: 800px;
+    background: url('/public/com-tri405.png') no-repeat 100% 100%;
+    background-size: 430px auto;
+}
+
+.profile-col-l {
+    width: 18%;
+    height: max-content;
+    
+}
+
+.profile-col-l .name {
+    font-size: 1.8em;
+    font-weight: 300;
+    font-stretch: condensed;
+    /* letter-spacing: .2em; */
+    margin-bottom: .2em;
+}
+
+.profile-col-l .furigana {
+    font-size: .8em;
+
+}
+
+
+.profile-table {
+    /* display: block; */
+    width: calc((88vw - 2 * 1.5em) * 0.17);
+    justify-content: space-between;
+    margin-top: 2em;
+    font-size: .9em;
+    letter-spacing: .1em;
+    font-stretch: condensed;
+}
+
+.profile-table tr td:first-child {
+    /* clear: left;
+    float: left; */
+    color: #E995AD;
+    width: 5em;
+}
+
+
+.profile-table td {
+    letter-spacing: .05em;
+    /* float: left; */
+}
+
+.profile-table dd:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.romaji {
+    display: block;
+    transform-origin: 100% 0;
+    transform: rotate(90deg) translate(calc(100% + 150px), 85px);
+    width: max-content;
+}
+
+.romaji p {
+    display: block;
+    font-size: 2em;
+    font-stretch: condensed;
+    letter-spacing: .2em;
+    width: max-content;
+}
+
+
+.profile-col-c {
+    width: 44%;
+    /* padding-left: 4%; */
+    padding: 0 1.8em;
+    border-left: 1px solid #BDBEBE;
+}
+
+.profile-col-r {
+    width: 38%;
+    /* padding-left: 4%; */
+}
+
+.greeting-title h2 {
+    font-size: 1.8em;
+    letter-spacing: 0.2em;
+    font-stretch: condensed;
+}
+
+.greeting-title p {
+    font-size: .9em;
+    color: #808080;
+    margin-top: .5em;
+    letter-spacing: 0;
+}

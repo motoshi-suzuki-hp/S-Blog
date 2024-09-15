@@ -1,0 +1,37 @@
+
+.page-header-title {
+    background-image: url('../cate-hero_pc.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+
+    text-align: center;
+
+    
+}
+
+.page-header-title h1 {
+    display: block;
+    height: 100%;
+    font-size: 2em;
+    color: #fff;
+    line-height: 90px;
+    font-stretch: condensed;
+    letter-spacing: .25em;
+    font-weight: 300;
+
+}
+
+.page-header {
+    padding: 0 1.5em 1.5em;
+}
+
+.page-header p {
+    font-size: .9em;
+    text-align: center;
+    width: 100%;
+    padding: 2.2em 0;
+    border-bottom: solid 1px #BDBEBE;
+    margin-bottom: 3em;
+}

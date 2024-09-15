@@ -1,0 +1,50 @@
+footer {
+    width: 100%;
+    background-color: #E5E5E5;
+    border-top: solid 1px #AAAAAA;
+}
+
+.footer-inner {
+    width: 100%;
+    display: flex;
+    padding: 1.5em 5em;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav ul li {
+    padding: 0 1em;
+    letter-spacing: 0em;
+    border-right: solid 1px;
+    line-height: 1em;
+    font-size: .75em;
+}
+
+.footer-nav ul li:last-child {
+    border-right: none;
+}
+
+.footer-jasrac {
+    display: flex;
+    vertical-align: middle;
+}
+
+.footer-jasrac p {
+    font-size: .7em;
+    letter-spacing: 0em;
+    height: fit-content;
+    margin: auto 1em auto 0;
+}
+
+.footer-jasrac img {
+    display: block;
+    width: 3em;
+    height: 3em;
+}

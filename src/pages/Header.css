@@ -1,0 +1,58 @@
+.header-inner {
+    display: flex;
+    height: fit-content;
+    position: relative;
+    text-align: center;    
+}
+
+.header-logo {
+    position: absolute;
+    height: 3.5em;
+    /* margin: auto; */
+    top: .75em;
+    left: 1em;
+}
+
+.header-nav {
+    /* position: absolute;
+    padding: 0 auto;
+    top: 0;
+    left: 50vw;
+    transform: translateX(-50%); */
+    display: block;
+    /* transform: translateX(50%); */
+    margin: auto;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav ul li {
+    font-size: .9em;
+    height: 100%;
+    padding: 2em 1em;
+    letter-spacing: 0em;
+    font-stretch: condensed;
+}
+
+.header-nav ul li:last-child a {
+    color: #F19DB5;
+}
+
+.header-nav ul li a:hover {
+    border-bottom: solid 1px #3D3A39;
+}
+
+
+body {
+    /* font-family: 'Noto Sans JP', "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif; */
+    font-weight: 300;
+    color: #3E3A39;
+    /* font-size: 1.6rem; */
+}
+
+.ff-condensed {
+    font-family: 'Roboto Condensed', 'Noto Sans JP', sans-serif;
+}
