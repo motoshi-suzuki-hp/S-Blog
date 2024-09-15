@@ -30,7 +30,7 @@ const AuthorList: React.FC = () => {
 
         const fetchAuthors = async () => {
             try {
-                const response = await fetch('http://localhost:8080/authors'); // Goサーバーから著者データを取得
+                const response = await fetch('https://s-blog-backend.onrender.com/authors'); // Goサーバーから著者データを取得
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

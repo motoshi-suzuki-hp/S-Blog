@@ -28,7 +28,7 @@ const MemberProfile: React.FC = () => {
 
         const fetchBlog = async () => {
             try {
-                const response = await fetch(`http://localhost:8080/profile/${authorId}`);
+                const response = await fetch(`https://s-blog-backend.onrender.com/profile/${authorId}`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
