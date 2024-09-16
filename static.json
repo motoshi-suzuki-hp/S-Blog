@@ -1,6 +1,5 @@
 {
-    "routes": {
-      "/**": "/src/index.tsx"
-    }
+  "routes": {
+    "/**": "/src/App.tsx"
   }
-  
+}
