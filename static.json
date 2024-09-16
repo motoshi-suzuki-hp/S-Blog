@@ -1,6 +1,6 @@
 {
     "routes": {
-      "/**": "/index.tsx"
+      "/**": "/src/index.tsx"
     }
   }
   
