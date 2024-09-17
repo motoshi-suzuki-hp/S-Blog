@@ -56,3 +56,22 @@ body {
 .ff-condensed {
     font-family: 'Roboto Condensed', 'Noto Sans JP', sans-serif;
 }
+
+
+
+
+@media only screen and (min-width:600px) {
+    .header-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .header-logo {
+        position: inherit;
+        
+    }
+    
+    .header-nav {
+        display: none;
+    }
+}
