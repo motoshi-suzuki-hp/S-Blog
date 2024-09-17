@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 // import Calendar from './Calendar';
 import './BlogDetail.css';
 import './PageHeader.css';
@@ -119,9 +119,9 @@ const BlogDetail: React.FC = () => {
                             <p>{convertBirthdayToFormat(profile.birthday)}生</p>
                         </div>
                         <div className="blog-profile-detail">
-                            <a href={`/profile/${authorId}`}>
-                            <p>詳細プロフィール</p>
-                            </a>
+                            <Link to={`/profile/${authorId}`}>
+                                <p>詳細プロフィール</p>
+                            </Link>
                         </div>
                         </div>
                     </div>

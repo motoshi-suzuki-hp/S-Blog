@@ -232,9 +232,9 @@ const BlogList = () => {
                 <p>{convertBirthdayToFormat(profile.birthday)}生</p>
               </div>
               <div className="blog-profile-detail">
-                <a href={`https://s-blog-l5r8.onrender.com/profile/${authorId}`}>
+                <Link to={`/profile/${authorId}`}>
                   <p>詳細プロフィール</p>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
