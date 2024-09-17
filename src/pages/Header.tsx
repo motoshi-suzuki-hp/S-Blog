@@ -16,7 +16,9 @@ const Footer = () => {
                         <li className="pc"><a href="https://sakurazaka46.com/s/s46/media/list">SCHEDULE</a></li>
                         
                         {/* <li><a href="https://sakurazaka46.com/s/s46/search/artist">MEMBER</a></li> */}
-                        <li><a href="/member">MEMBER</a></li>
+                        <li><a href="https://s-blog-l5r8.onrender.com/member">MEMBER</a></li>
+
+                        
                         <li><a href="https://sakurazaka46.com/s/s46/page/formation">FORMATION</a></li>
                         {/* <li><a href="https://sakurazaka46.com/s/s46/diary/blog/list">BLOG</a></li> */}
                         <li><a href="/">BLOG</a></li>
