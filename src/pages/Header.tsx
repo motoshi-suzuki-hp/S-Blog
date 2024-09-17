@@ -8,7 +8,8 @@ const Footer = () => {
             <div className="header-inner">
                 <div className="header-logo">
                     <a href="https://sakurazaka46.com/s/s46/?ima=0000">
-                        <img src="/com-logo_pc.svg" alt="logo" />
+                        <img src="/com-logo_pc.svg" alt="logo" className="logo_pc"/>
+                        <img src="/com-logo_sp.svg" alt="logo" className="logo_sp"/>
                     </a>
                 </div>
                 <div className="header-nav">

@@ -48,3 +48,12 @@
     letter-spacing: 0;
     font-size: .5em;
 }
+
+
+@media only screen and (max-width:1200px) {
+    .member-list-inner {
+        width: 100vw;
+        margin: 0 auto 5em;
+    }
+
+}

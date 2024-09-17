@@ -13,6 +13,10 @@
     left: 1em;
 }
 
+.logo_sp {
+    display: none;
+}
+
 .header-nav {
     /* position: absolute;
     padding: 0 auto;
@@ -60,18 +64,37 @@ body {
 
 
 
-@media only screen and (min-width:600px) {
+@media only screen and (max-width:1200px) {
     .header-inner {
         display: block;
         text-align: center;
+        position: inherit;
+    }
+
+    .logo_pc {
+        display: none;
+    }
+
+    .logo_sp {
+        display: block;
     }
 
     .header-logo {
+        display: block;
         position: inherit;
-        
+        width: 16vw;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 1em 0;
     }
-    
+
+    .header-logo a {
+        display: block;
+        height: fit-content;
+    }
+
     .header-nav {
         display: none;
     }
 }
+

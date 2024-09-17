@@ -11,9 +11,6 @@ footer {
     justify-content: space-between;
 }
 
-.footer-nav {
-    
-}
 
 .footer-nav ul {
     display: flex;
@@ -47,4 +44,18 @@ footer {
     display: block;
     width: 3em;
     height: 3em;
+}
+
+
+@media only screen and (max-width:1200px) {
+    .footer-inner {
+        width: 100%;
+        display: block !important;;
+        padding: 1.5em 5em;
+    }
+    
+    
+    .footer-nav ul {
+        display: block;
+    }
 }

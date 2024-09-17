@@ -30,12 +30,69 @@
     height: fit-content;
 }
 
-.author-list li a h3 {
-    font-size: .9em;
-    font-weight: bold;
-    color: #877EFF;
+.author-list li a img {
+    width: calc((88vw - 2 * 1.5em - 5 * .8em) / 6);
+    height: calc((88vw - 2 * 1.5em - 5 * .8em) / 6);
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 50% 0%;
+    border: solid 2px #fff;
 }
 
+.author-list li a h3 {
+    font-size: .9em;
+    color: #3D3A39;
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .author-inner {
+        width: 100vw;
+        margin: 0 auto 5em;
+    }
+
+
+    .author-list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .8em;
+        justify-content: space-between;
+        text-align: left;
+        padding: 0 1.8em;
+    }
+
+    .author-list li {
+        width: 100%;
+        /* margin-left: .8em; */
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .author-list li:nth-of-type(10n+1) {
+        margin-left: 0;
+    }
+
+    .author-list li a {
+        display: block;
+        height: fit-content;
+    }
+
+    .author-list li a img {
+        width: calc((100vw - 2 * 1.8em - 2 * .8em) / 3);
+        height: calc((100vw - 2 * 1.8em - 2 * .8em) / 3);
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% 0%;
+        border: solid 2px #fff;
+    }
+
+    .author-list li a h3 {
+        font-size: .9em;
+        color: #3D3A39;
+    }
+}
 
 
 
@@ -46,7 +103,22 @@
     gap: .8em;
     justify-content: space-between;
     padding-right: 1.5em;
+    padding-bottom: 5em;
+
 }
+
+.graduation-blog-subtitle {
+    text-align: center;
+}
+
+.graduation-blog-subtitle h2 {
+    font-size: 2em;
+    margin: .2em 0 2.3em;
+    font-stretch: condensed;
+    letter-spacing: .2em;
+    font-weight: 300;
+}
+
 
 
 .graduation-blog-post {
@@ -122,6 +194,7 @@
     font-size: .75em;
     letter-spacing: 0em;
     color: #E995AD;
+    font-stretch: condensed;
 }
 
 
@@ -191,3 +264,187 @@
     right: 0;
 }
 
+@media only screen and (max-width:1200px) {
+
+
+
+    .graduation-blog-lists {
+        display: block;
+        padding: 0 2em 5em;
+    }
+
+
+    .graduation-blog-subtitle {
+        text-align: center;
+    }
+    
+    .graduation-blog-subtitle h2 {
+        font-size: 2em;
+        margin: .2em 0 .9em;
+        font-stretch: condensed;
+        letter-spacing: .2em;
+        font-weight: 300;
+    }
+    
+
+
+    .graduation-blog-post {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        margin-bottom: 3em;
+        position: relative;
+    }
+    
+    
+    .graduation-blog-post::after {
+        content: '';
+        width: 1px;
+        height: 18vw;
+        display: inline-block;
+        background-color: #BDBEBE;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+
+
+
+    .graduation-blog-post a {
+        display: block;
+        width: 100%;
+        padding: 0 1.5em;
+        position: relative;
+    }
+
+
+
+    /* kokomade ok */
+
+    .graduation-blog-post-member {
+        position: absolute;
+        width: 100px;
+        height: auto;
+        top: 52%;
+        right: 5%;
+    }
+
+    .graduation-blog-post-member img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: 50% 0%;
+        border: solid 2px #fff;
+    }
+
+    .graduation-blog-post-member p {
+        font-size: .8em;
+        letter-spacing: 0;
+        line-height: 1em;
+        color: #3E3A39;;
+    }
+
+    /* image ok */
+    .graduation-blog-image {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+    }
+
+    .graduation-blog-image img {
+        width: 100%;
+    }
+
+    /* kokomade image */
+
+    .graduation-blog-text {
+        width: 100%;
+        text-align: left;
+        padding: 1em 0 0;
+    }
+
+    .graduation-blog-text small {
+        font-size: .6em;
+        font-weight: bold;
+        letter-spacing: .05em;
+        color: #E995AD;
+        font-stretch: condensed;
+    }
+
+    /*  */
+
+    .graduation-blog-text h3 {
+        height: 3em;
+        font-size: .9em;
+        font-weight: bold;
+        margin: .5em 0;
+    }
+
+
+    .graduation-blog-text p {
+        height: 6em;
+        font-size: .75em;
+        color: #3D3A39;
+    }
+
+
+
+    /*  */
+
+    .graduation-blog-more {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .graduation-blog-more p {
+        font-size: .9em;
+        width: fit-content;
+        padding: 1em 2em;
+        border-bottom: 1px solid #F19DB5;
+        position: relative;
+        font-stretch: condensed;
+    }
+
+    .graduation-blog-more p::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        /* right: -1em; */
+        top: calc(.9em + 6px);
+        width: 14px;
+        height: 12px;
+        transform: translateX(100%);
+        background: url('/public/com-btn-arrow.svg') no-repeat 50%;
+        background-size: contain;
+        pointer-events: none;
+    }
+
+
+    .graduation-blog-more::before {
+        content: '';
+        width: 13.6em;
+        height: 1px;
+        display: inline-block;
+        background-color: #BDBEBE;
+        position: absolute;
+        bottom: 0;
+        left: 1.5em;
+    }
+
+
+    .graduation-blog-more::after {
+        content: '';
+        width: 1.3em;
+        height: 1px;
+        display: inline-block;
+        background-color: #BDBEBE;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+}

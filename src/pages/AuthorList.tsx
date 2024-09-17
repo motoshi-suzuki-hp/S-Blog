@@ -65,7 +65,13 @@ const AuthorList: React.FC = () => {
                 </div>
 
 
+                <div className="graduation-blog-subtitle">
+                    <h2>GRADUATION POSTS</h2>
+                </div>
                 <div className="graduation-blog-lists">
+
+
+
                     {authors.map((author) => (
                         <div key={author.id} className="graduation-blog-post">
                             <Link to={`/author/${author.id}/blog/${author.graduationId}`}>
