@@ -15,7 +15,6 @@ type Profile = {
 
 
 const MemberProfile: React.FC = () => {
-    const { blogId } = useParams<{ blogId: string }>();
     const { authorId } = useParams<{ authorId: string }>();
     const [authorName, setAuthorName] = useState<string>("");
     const [authorFurigana, setAuthorFurigana] = useState<string>("");
@@ -45,7 +44,7 @@ const MemberProfile: React.FC = () => {
         };
 
         fetchBlog();
-    }, [authorId, blogId]);
+    }, [authorId]);
 
     
     return (
