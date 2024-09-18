@@ -46,6 +46,10 @@ const MemberProfile: React.FC = () => {
         fetchBlog();
     }, [authorId]);
 
+    if (!error) {
+        return <div>{error}</div>;
+    }
+
     
     return (
         <div className="profile">
