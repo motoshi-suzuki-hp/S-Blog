@@ -230,4 +230,133 @@
         margin: 0 auto 5em;
     }
 
+    .blog-detail-elements {
+        padding: 0 1.5em;
+    }
+
+    .blog-detail-left {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .col-l {
+        width: 17%;
+
+    }
+
+    .col-r {
+        width: 83%;
+        padding-left: 1%;
+    }
+
+    .blog-detail-date {
+        /* width: 100%; */
+        height: calc((100vw - 2 * 1.5em) * 0.17);
+        padding: 0.3em;
+        border-right: 1px solid #BDBEBE;
+        border-bottom: 1px solid #BDBEBE;
+    }
+    .blog-detail-date-inner {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .blog-detail-date-inner:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(-45deg, transparent 49.5%, #CCC 49.5%, #CCC 50.5%, transparent 50.5%, transparent);
+    }
+
+    .blog-detail-date-inner p {
+        font-size: 1.2em;
+        font-weight: 300;
+        font-stretch: condensed;
+        line-height: normal;
+        height: fit-content;
+    }
+
+    .year-month {
+        font-size: 0.5em;
+        letter-spacing: .4em;
+    }
+
+    .date {
+        font-size: 1em;
+    }
+
+
+    .blog-detail-title {
+        height: calc((100vw - 2 * 1.5em) * 0.17);
+    }
+
+    .blog-detail-title-inner {
+        width: 100%;
+        height: 100%;
+
+        border-bottom: 1px solid #BDBEBE;
+        
+    }
+
+    .blog-detail-title-inner p {
+        font-size: 1em;
+        font-weight: 300;
+        margin: auto 0;
+    }
+
+
+
+    .blog-detail-name {
+        display: none;
+    }
+
+
+
+
+
+    .blog-detail-body {
+        width: 100%;
+        padding: 0;
+        font-size: .9em;
+    }
+
+
+    .blog-detail-body-foot {
+        padding: 60px 0 70px;
+        margin-left: 2em;
+    }
+
+
+    .blog-detail-body-foot-name {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+
+    .blog-detail-body-foot-date {
+        font-size: .8em;
+        letter-spacing: 0.2em;
+        color: #E995AD;
+        font-stretch: condensed;
+    }
+
+
+
+
+
+
+    .blog-right {
+        display: none;
+    }
+
 }

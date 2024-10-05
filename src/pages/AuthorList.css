@@ -291,6 +291,7 @@
     .graduation-blog-post {
         display: block;
         width: 100%;
+        /*  */
         height: fit-content;
         text-align: center;
         margin-bottom: 3em;
@@ -301,7 +302,7 @@
     .graduation-blog-post::after {
         content: '';
         width: 1px;
-        height: 18vw;
+        height: 79%;
         display: inline-block;
         background-color: #BDBEBE;
         position: absolute;
@@ -327,8 +328,8 @@
         position: absolute;
         width: 100px;
         height: auto;
-        top: 52%;
-        right: 5%;
+        top: 58.5%;
+        right: 2%;
     }
 
     .graduation-blog-post-member img {
@@ -349,8 +350,9 @@
 
     /* image ok */
     .graduation-blog-image {
-        width: 100%;
-        height: fit-content;
+        width: calc(100vw - 2 * 2em - 2 * 1.5em);
+        height: calc(100vw - 2 * 2em - 2 * 1.5em);
+        /* height: fit-content; */
         object-fit: cover;
     }
 
@@ -385,9 +387,17 @@
 
 
     .graduation-blog-text p {
-        height: 6em;
+        height: 3em;
         font-size: .75em;
         color: #3D3A39;
+    }
+
+    .text-limit {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* 任意の行数を指定 */
+        line-clamp: 2;
     }
 
 
@@ -426,7 +436,7 @@
 
     .graduation-blog-more::before {
         content: '';
-        width: 13.6em;
+        width: 19em;
         height: 1px;
         display: inline-block;
         background-color: #BDBEBE;

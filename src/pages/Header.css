@@ -82,8 +82,8 @@ body {
     .header-logo {
         display: block;
         position: inherit;
-        width: 16vw;
-        height: fit-content;
+        width: 25%;
+        height: 100%;
         margin: 0 auto;
         padding: 1em 0;
     }
