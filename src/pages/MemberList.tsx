@@ -20,7 +20,7 @@ const MemberList: React.FC = () => {
 
         const fetchMembers = async () => {
             try {
-                const response = await fetch(`http://localhost:8080/member/`);
+                const response = await fetch(`https://s-blog-backend.onrender.com/member/`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
