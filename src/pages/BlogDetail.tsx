@@ -33,7 +33,7 @@ const BlogDetail: React.FC = () => {
 
         const fetchBlog = async () => {
             try {
-                const response = await fetch(`https://s-blog-backend.onrender.com/author/${authorId}/blog/${blogId}`);
+                const response = await fetch(`http://localhost:8080/author/${authorId}/blog/${blogId}`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

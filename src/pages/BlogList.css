@@ -371,7 +371,7 @@
         position: absolute;
         width: 100px;
         height: auto;
-        top: calc(100vw - 2 * 2em - 2 * 2em - 2 * 1.5em);
+        top: calc((100vw - 2 * 2em - 2 * 2em - 2 * 1.5em) * 0.85);
         right: .6em;
     }
 
