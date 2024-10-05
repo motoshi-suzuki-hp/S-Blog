@@ -472,7 +472,7 @@
 
     .blog-more::before {
         content: '';
-        width: 19em;
+        width: 22.5em;
         height: 1px;
         display: inline-block;
         background-color: #BDBEBE;
